@@ -21,7 +21,7 @@ var sites = require('./routes/sites');
 
 // database connection
 //mongoose.connect('mongodb://localhost/site_monitordb');
-mongoose.connect('mongodb://site_monitordb:msDoO3dMUXF5Es3t@webmonitor-mongodb4/site_monitordb);
+mongoose.connect('mongodb://site_monitordb:msDoO3dMUXF5Es3t@webmonitor-mongodb4/site_monitordb');
 
 // load the Schemas for MongoDB
 require('./models/Sites');
